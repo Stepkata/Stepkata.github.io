@@ -4,26 +4,25 @@ Projekt na przedmiot Narzędzia Informatyczne w roku akademickim 2021/2022 na ki
 
 ### Obecne projekty
 
-Członek zespołu DeadPxlz
+- Studentka Informatyki i Systemów inteligentnych
+- Członek zespołu _DeadPxlz_
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Snippet mojej częsci kodu projektu
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+def sortuj(name):
+  dict = {}
+  file = open(name, "r")
+  for line in file:
+    x, y = line.split(' ')
+    dict[int(x)] = y #jeżeli wynik jest taki sam, zostanie zastąpiony w słowniku, ale nie w pliku
+  x = 0
+  for i in sorted(dict, reverse=True):
+    print("%s " %i, dict[i])
+    if (x==9):
+      break
+    x+=1
+ 
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
