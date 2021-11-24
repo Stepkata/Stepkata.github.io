@@ -1,2 +1,5 @@
 theme: jekyll-theme-minimal
 header: Hello
+
+avatar: "https://github.com/Stepkata/Stepkata.github.io/blob/main/OTI.jpg"
+round-avatar: true
