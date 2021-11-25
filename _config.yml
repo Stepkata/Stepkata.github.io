@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 
 title: Stepkata
 
-avatar: "https://github.com/Stepkata/Stepkata.github.io/blob/main/OTI.jpg"
+avatar: "main/OTI.jpg"
 round-avatar: true
 
 date_format: "%B %-d, %Y"
